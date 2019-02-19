@@ -7,7 +7,6 @@ module.exports = {
   },
   testMatch: ['<rootDir>/test/e2e/**/*.spec.ts'],
   setupFiles: [],
-  setupTestFrameworkScriptFile: '<rootDir>/jest.setup.js',
-  //setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   preset: 'ts-jest'
 };
